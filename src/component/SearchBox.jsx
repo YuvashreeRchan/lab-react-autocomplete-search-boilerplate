@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import countryData from 'C:/Users/yuva/Documents/ReactKalvium/lab-react-autocomplete-search-boilerplate/resources/countryData.json';
+import countryData from '../resources/countryData.json';
 
 const SearchBox = () => {
 const [query, setQuery] = useState('');
